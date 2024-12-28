@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-1^1kln*o@&&g#h2+_#car7daa7^*!a=*3=#k&zto22ze9=gt=d
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['8000-landfish744-djangoblog-lm4lx6vjd7w.ws.codeinstitute-ide.net']
+ALLOWED_HOSTS = ['8000-landfish744-djangoblog-lm4lx6vjd7w.ws.codeinstitute-ide.net', '.herokuapp.com']
 
 
 # Application definition
@@ -38,7 +38,6 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'blog',
-    '.herokuapp.com',
 ]
 
 MIDDLEWARE = [
